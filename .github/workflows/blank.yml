@@ -38,4 +38,5 @@ jobs:
 
       - name: Docker Image build and push
         run: |
-          docker build
+          docker build -t gdsc .
+          docker push ${{ secrets.DOCKER_USERNAME }}/gdsc
