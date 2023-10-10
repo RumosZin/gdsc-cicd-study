@@ -28,5 +28,5 @@ jobs:
         run: yarn add jest
 
       - name : run test
-        run : yarn test
+        run : sudo yarn test
     
